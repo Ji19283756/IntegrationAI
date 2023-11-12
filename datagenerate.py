@@ -19,7 +19,13 @@ class MathFunction:
 
             if debug:
                 print("current index", current_index)
+                print("function", self.function(current_index))
                 print("total", total)
+
+        if debug:
+            print("total", total)
+            print("x delta * total", x_delta * total)
+            print("final", x_delta * total / 2)
 
         return x_delta * total / 2
 
